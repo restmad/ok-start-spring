@@ -41,9 +41,10 @@ public class StartInitializrMetadataUpdateStrategy extends SaganInitializrMetada
 
 	@Override
 	protected List<DefaultMetadataElement> fetchSpringBootVersions(String url) {
-		List<DefaultMetadataElement> versions = super.fetchSpringBootVersions(url);
-		return (versions != null) ? versions.stream().filter(this::isCompatibleVersion).collect(Collectors.toList())
-				: null;
+//		List<DefaultMetadataElement> versions = super.fetchSpringBootVersions(url);
+//		return (versions != null) ? versions.stream().filter(this::isCompatibleVersion).collect(Collectors.toList())
+//				: null;
+		return null;
 	}
 
 	private boolean isCompatibleVersion(DefaultMetadataElement versionMetadata) {

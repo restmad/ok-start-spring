@@ -1,0 +1,83 @@
+{
+  "id": "spring-boot",
+  "name": "Spring Boot",
+  "projectReleases": [
+    {
+      "version": "3.0.2-SNAPSHOT",
+      "versionDisplayName": "3.0.2-SNAPSHOT",
+      "current": false,
+      "releaseStatus": "SNAPSHOT",
+      "snapshot": true
+    },
+    {
+      "version": "3.0.1",
+      "versionDisplayName": "3.0.1",
+      "current": false,
+      "releaseStatus": "GENERAL_AVAILABILITY",
+      "snapshot": false
+    },
+    {
+      "version": "2.7.8-SNAPSHOT",
+      "versionDisplayName": "2.7.8-SNAPSHOT",
+      "current": false,
+      "releaseStatus": "SNAPSHOT",
+      "snapshot": true
+    },
+    {
+      "version": "2.7.7",
+      "versionDisplayName": "2.7.7",
+      "current": false,
+      "releaseStatus": "GENERAL_AVAILABILITY",
+      "snapshot": false
+    },
+    {
+      "version": "2.7.6",
+      "versionDisplayName": "2.7.6",
+      "current": false,
+      "releaseStatus": "GENERAL_AVAILABILITY",
+      "snapshot": false
+    },
+    {
+      "version": "2.6.14",
+      "versionDisplayName": "2.6.14",
+      "current": false,
+      "releaseStatus": "GENERAL_AVAILABILITY",
+      "snapshot": false
+    },
+    {
+      "version": "2.6.11",
+      "versionDisplayName": "2.6.11",
+      "current": true,
+      "releaseStatus": "GENERAL_AVAILABILITY",
+      "snapshot": false
+    },
+    {
+      "version": "2.5.14",
+      "versionDisplayName": "2.5.14",
+      "current": false,
+      "releaseStatus": "GENERAL_AVAILABILITY",
+      "snapshot": false
+    },
+    {
+      "version": "2.4.13",
+      "versionDisplayName": "2.4.13",
+      "current": false,
+      "releaseStatus": "GENERAL_AVAILABILITY",
+      "snapshot": false
+    },
+    {
+      "version": "2.4.2",
+      "versionDisplayName": "2.4.2",
+      "current": false,
+      "releaseStatus": "GENERAL_AVAILABILITY",
+      "snapshot": false
+    },
+    {
+      "version": "2.3.12.RELEASE",
+      "versionDisplayName": "2.3.12.RELEASE",
+      "current": false,
+      "releaseStatus": "GENERAL_AVAILABILITY",
+      "snapshot": false
+    }
+  ]
+}
