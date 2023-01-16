@@ -31,22 +31,8 @@
       "snapshot": false
     },
     {
-      "version": "2.7.6",
-      "versionDisplayName": "2.7.6",
-      "current": false,
-      "releaseStatus": "GENERAL_AVAILABILITY",
-      "snapshot": false
-    },
-    {
       "version": "2.6.14",
       "versionDisplayName": "2.6.14",
-      "current": false,
-      "releaseStatus": "GENERAL_AVAILABILITY",
-      "snapshot": false
-    },
-    {
-      "version": "2.6.11",
-      "versionDisplayName": "2.6.11",
       "current": true,
       "releaseStatus": "GENERAL_AVAILABILITY",
       "snapshot": false
@@ -61,13 +47,6 @@
     {
       "version": "2.4.13",
       "versionDisplayName": "2.4.13",
-      "current": false,
-      "releaseStatus": "GENERAL_AVAILABILITY",
-      "snapshot": false
-    },
-    {
-      "version": "2.4.2",
-      "versionDisplayName": "2.4.2",
       "current": false,
       "releaseStatus": "GENERAL_AVAILABILITY",
       "snapshot": false
