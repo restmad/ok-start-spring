@@ -215,12 +215,6 @@ initializr:
         artifactId: aliyun-spring-boot-dependencies
         versionProperty: aliyun-spring-boot.version
         version: 1.0.0
-    maven:
-      parent:
-        includeSpringBootBom: true
-        groupId: com.example
-        artifactId: your-parent-artifactId
-        version: 0.0.0-SNAPSHOT
     gradle:
       dependency-management-plugin-version: 1.0.9.RELEASE
     kotlin:

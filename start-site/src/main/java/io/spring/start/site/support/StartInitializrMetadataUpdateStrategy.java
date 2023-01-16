@@ -28,7 +28,7 @@ import jodd.io.FileUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.client.RestTemplate;
 
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
 import java.util.*;
 
@@ -53,13 +53,12 @@ public class StartInitializrMetadataUpdateStrategy extends SaganInitializrMetada
 	@Override
 	protected List<DefaultMetadataElement> fetchSpringBootVersions(String url) {
 		log.info("fetchSpringBootVersions: {}, changed to read from json file", url);
-		URL resource = this.getClass().getResource("/spring/spring-version.json");
-		if (resource == null) {
+		InputStream inputStream = this.getClass().getResourceAsStream("/spring/spring-version.json");
+		if (inputStream == null) {
 			return new ArrayList<>();
 		}
-		String path = resource.getPath();
 		try {
-			String springVersionJson = FileUtil.readString(path);
+			String springVersionJson = FileUtil.readUTFString(inputStream);
 			JsonNode content = objectMapper.readTree(springVersionJson);
 			log.info("spring version content: {}", content.toPrettyString());
 			return getBootVersion(content);
